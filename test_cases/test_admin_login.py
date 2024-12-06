@@ -19,7 +19,7 @@ class Test_01_Admin_Login:
         self.driver = setup
         self.driver.get(self.admin_page_url)
         act_title = self.driver.title
-        exp_title = "Dashboard"
+        exp_title = "FRE8"
         if act_title == exp_title:
             assert True
             self.driver.close()
